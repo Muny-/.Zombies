@@ -1,0 +1,29 @@
+{
+  "name": "zombies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "unlicensed",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^8.0.46",
+    "@types/three": "^0.84.27",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "ts-loader": "^3.0.5",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "three": "^0.87.1"
+  }
+}
